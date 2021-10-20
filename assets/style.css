@@ -1,0 +1,31 @@
+body {
+    background: none scroll no-repeat center center / auto #010101;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.modal-container {
+    position: relative;
+    background: none scroll no-repeat center center / auto #fff;
+}
+
+.modal-wrapper {
+    padding: 35px;
+}
+
+.modal-heading {
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+
+#notification {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    top: 0;
+}
+
+@media screen and (min-width: 768px) {
+    .modal-container {
+        width: 408px;
+    }
+}
